@@ -1,0 +1,423 @@
+/*
+    Theme Name: Hai Metal Theme
+    Author: Arne Zargarian
+    Version: 1.0
+
+    /* 3rd party packages */
+    /*
+    - Bootstrap -
+    - JQuery -
+*/
+
+* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+    padding-top: 20px;
+}
+*, *:before, *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*{margin: 0px;}
+* img{
+    max-width:100%;
+    height:auto;
+    margin: 0px;
+}
+
+{outline: 1px red solid}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1000;
+    color: #333333;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 25px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-right: 20px;
+    margin-left: 50px;
+}
+header{
+    background: #cccccc;
+    top: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    border-width: 0px;
+    position: sticky;
+    border-width: 0;
+    z-index:1;
+}
+.head-contact a{
+    color: #006600;
+}
+.head-contact a:hover{
+    color: #006600;
+    cursor: pointer;
+}
+.logo{
+    width: 200px;
+    float: left;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+.head-contact{
+    float: right;
+    text-align: left;
+    color: #006600;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.navbar{
+    background: #ff9900;
+    outline: none;
+}
+.menu{
+    background: #ff9900;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    box-shadow: 10px 10px 20px;
+    border-width: 0;
+
+}
+.menu a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #333333 !important;
+    margin: 0px 20px;
+    font-size: 18px;
+}
+.no-margin{
+    padding: 0px;
+}
+.navbar .container{
+    padding: 0px;
+}
+.blurb{
+    float: left;
+    width: 33%;
+}
+.client-pics{
+    margin: 10px;
+    float: center;
+}
+footer{
+    background: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    padding-bottom: 25px;
+}
+h3{
+    text-align: left;
+    color: #006600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.footer-info{
+    float: left;
+    width: 22%;
+}
+footer p{
+    color: #333333;
+    margin-left: 5px;
+    line-height: 15px;
+    font-size: 16px;
+}
+footer a{
+    color: #333333;
+    line-height: 15px;
+    font-size: 16px;
+}
+footer a:hover{
+    color: #333333;
+    line-height: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.head-blurb{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 5px;
+    padding-right: 0px;
+}
+.contact-bg{
+    background: #cccccc;
+}
+.navbar-toggle{
+    float: left;
+    margin-right: 0px;
+    margin-left: 50px;
+    border-width: 0;
+    text-align: left;
+}
+.navbar-collapse.in{
+    overflow-x: hidden;
+}
+.navbar-default .navbar-collapse{
+    border-color: #ff9900;
+}
+.clients{
+    margin-bottom: 30px;
+}
+.blurbs-section{
+    margin-bottom: 40px;
+}
+/*wordpress specific*/
+.generic-content p{
+    margin-top: 15px;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+}
+.generic-instructions p{
+    text-align: center;
+    margin-left: 0;
+}
+/*image wrapping in wordpress posts*/
+img.alignright {float:right; margin:1em 0 1em 1em}
+img.alignleft {float:left; margin:1em 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignright {float:right; }
+.alignleft {float:left; }
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+/*wpcf7*/
+.wpcf7{
+    width: 100%;
+}
+.wpcf7-form{
+    width: 100%;
+}
+.wpcf7 form{
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+.wpcf7 form p{
+    margin-left: 15px;
+    width: 48%;
+    float: left;
+}
+.wpcf7 textarea{
+    width: 100%;
+}
+.wpcf7 form h3{
+    text-align: center;
+    color: #333333;
+}
+.codedropz-upload-handler{
+    border: 2px dashed #333333;
+    margin-top: 10px;
+}
+input{
+    float: left;
+}
+input[type="text"],
+input[type="email"]{
+
+}
+label{
+    width: 100%;
+}
+/*Media Queries*/
+@media(max-width: 1080px){
+    .row{
+        margin-right: 0px;
+    }
+    .logo{
+        margin-left: 20px
+    }
+    .head-contact{
+        margin-right: 20px;
+    }
+    p{
+        margin-left: 25px;
+        padding-right: 20px
+    }
+    h2{
+        padding-right: 10px;
+    }
+    .footer-info{
+        width: 30%;
+        margin-left: 25px
+    }
+}
+@media(max-width: 991px){
+    .row{
+        margin-right: 0px;
+    }
+    .logo{
+        margin-left: 20px
+    }
+    .head-contact{
+        margin-right: 20px;
+    }
+    p{
+        margin-left: 25px;
+        padding-right: 20px
+    }
+    h2{
+        padding-right: 10px;
+    }
+    .footer-info{
+        width: 29%;
+        margin-left: 25px
+    }
+}
+@media(max-width: 767px){
+    .container{
+        margin-right: 20px;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .navbar-toggle{
+        float: left;
+        margin-right: 0px;
+        margin-left: 75px;
+        border-width: 0;
+    }
+    h2{
+        padding-right: 0px;
+        margin-left: 25px;
+    }
+    p{
+        margin-left: 40px;
+        padding-right: 0px;
+    }
+    .footer-info{
+        margin-left: 30px;
+    }
+}
+@media(max-width: 640px){
+    h2{
+        margin-left: 35px;
+        font-size: 25px;
+    }
+    .footer-info{
+        width: 28%;
+        margin-left: 32px;
+    }
+}
+@media(max-width: 414px){
+    .client-pics{
+        margin-left: 15px;
+    }
+    .logo{
+        margin-left: 30px;
+        width: 150px;
+        padding-bottom: 10px;
+    }
+    .head-contact{
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    h1{
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+    .blurb{
+        width: 100%;
+    }
+    h2{
+        margin-left: 25px;
+    }
+    p{
+        margin-left: 35px;
+    }
+    .footer-info{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footer-info p{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    .head-blurb{
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-left: 50px;
+        padding-right: 0px;
+    }
+    .contact-bg{
+        padding-left: 30px;
+    }
+    .generic-content p{
+        margin-top: 0;
+        margin-left: 50px !important;
+        padding-right: 0 !important;
+    }
+    .wpcf7 form p{
+        margin-left: 10px;
+        width: 100%;
+        float: none;
+    }
+    .generic-instructions p{
+        text-align: left;
+        margin-left: 30px;
+    }
+}
+@media(max-width: 375px){
+    .logo{
+        margin-left: 15px;
+    }
+    .head-contact{
+        margin-right: -15px;
+    }
+    .navbar-collapse.in{
+        margin-left: 40px;
+        transition-duration: 1s;
+    }
+    .navbar a{
+        float: center;
+    }
+    li a{
+        text-align: left;
+        margin-left: 70px;
+    }
+}
+@media(max-width: 320px){
+    .logo{
+        width: 100px;
+    }
+    .head-contact{
+        margin-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .generic-content p{
+        margin-top: 0;
+        margin-left: 48px !important;
+        padding-right: 0 !important;
+    }
+    .wpcf7 form p{
+        margin-left: 10px;
+        float: left;
+    }
+    input[type="text"],
+    input[type="email"]{
+        width: 75%;
+    }
+}
